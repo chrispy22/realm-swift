@@ -147,6 +147,7 @@ let package = Package(
     platforms: [
         .macOS(.v10_13),
         .iOS(.v12),
+        .macCatalyst(.v13),
         .tvOS(.v12),
         .watchOS(.v4)
     ],
